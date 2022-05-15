@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="*">
+    <title>Calculadora de empréstimo</title>
+</head>
+
+<body class="body">
+    <h1 class="texto">Calculadora de empréstimo</h1>
+    <div>
+        <form class="container">
+            <label class="container-item">
+                Valor do empéstimo
+                <input type="number" id="emprestimo" placeholder="R$ 00,00">
+            </label>
+
+            <label class="container-item">
+                Quantidade de parcelas
+                <input type="number" id="parcelas" placeholder="00">
+            </label>
+
+            <label class="container-item">
+                Taxa de juros
+                <input type="number" id="juros" placeholder="%">
+            </label>
+            <button onclick="calcular()">Calcular</button>
+        </form>
+    </div>
+    <script src="./javascript/script.js"></script>
+</body>
+
+</html>
